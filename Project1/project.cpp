@@ -10,6 +10,9 @@ int main()
 	double z1;
 	double z2;
 	double sum;
+	double k;
+
+	k = 15;
 
 	cout << "x = "; cin >> x;
 	cout << "y = "; cin >> y;
@@ -19,6 +22,7 @@ int main()
 	sum = z1 + z2;
 
 	cout << endl;
+	cout << "k = " << k << endl;
 	cout << "z1 = " << z1 << endl;
 	cout << "z2 = " << z2 << endl;
 	cout << "sum = " << sum << endl;
